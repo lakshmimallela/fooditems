@@ -1,38 +1,91 @@
-.App {
-  text-align: center;
+.navbar a img{
+    height: 45px;
+}
+.homediv .home{
+    width: 100%;
+    background-color: rgb(232, 46, 46);
+}
+.homediv .Api:hover{
+    width: 100%;
+    background-color: rgb(232, 46, 46);
+    border-radius: 5px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.search{
+    width: 80%;
+    height: 30px;
+    border-radius: 5px;
 }
+nav, footer {
+    background-color: rgb(33, 18, 3);
+}
+.pay{
+    color: rgb(62, 90, 172);
+    font-weight: bold;
+}
+.pal{
+    color: rgb(148, 208, 245);
+    font-weight: bold;
+}
+.meals .images{
+    width: 100px;
+    height: 100px;
+}
+footer .flag img{
+    width: 20px;
+    height: 20px;
+}
+.body{
+background-color: rgb(59,30,16);
+}
+p{
+ color: white;
+}
+.line{
+width: 100%;
+height: 2px;
+background-color: white;
+ 
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
+.api{
+color:rgb(199,147,34);
+}
+.api:hover{
+ color: rgb(233,190,35);
+}
+.total p{
+color:rgb(199,147,34);
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
+.total:hover p,img {
+ color: rgb(233,190,35);
 
-.App-link {
-  color: #61dafb;
-}
+   }
+.alpha{
+    color: chocolate;
+    font-size: 22px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
+.alpha:hover{
+color: rgb(233,190,35);
+
+}
+.ending{
+    color:white;
+    }
+.ending:hover{
+color: red;
+}
+footer .Socials .fa-square-facebook{
+background-color:white;
+font-size: 20px;
+}
+footer .Socials .fa-square-twitter{
+    background-color: white;
+    font-size: 20px;
+    }
+    footer .Socials .fa-github-alt{
+        background-color:white;
+        font-size: 20px;
+        }
